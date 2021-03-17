@@ -64,7 +64,7 @@
                   <td>
                     <a href="/delete-todo/{{todo.id}}" title="Delete" class=""><i class="fa fa-trash"></i></a>
                     {% if todo.status == 'P'%}
-                    <a href="/change-status/{{todo.id}}/C" title="Mark Done" class="">✅</a>
+                    <a href="/change-status/{{todo.id}}/D" title="Mark Done" class="">✅</a>
                     {%else%}
                     <a href="/change-status/{{todo.id}}/P" title="Mark Pending" class="">🕗</a>
                     {%endif%}
